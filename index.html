@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Wedding Invitation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Container for the invitation -->
+    <div id="container">
+        <div class="container">
+            <header>
+                <p class="hdr">TOGETHER WITH FAMILY</p>
+                <h1>KAZUMA & MEGUMIN</h1>
+                
+            </header>
+            
+            <section class="invitation-details hidden">
+                <div class="image-placeholder">
+                    <!-- Placeholder for an image -->
+                    <img src="wedding.jpg" alt="Wedding Image">
+                </div>
+                <div class="details">
+                    <h2 class="head">Joyfully Invite You to Share in a Celebration of Love and Commitment.</h2>
+                    <p class="font">Date: 25th December 2024</p>
+                    <p class="font">Venue: Church of Axel, Axel</p>
+                </div>
+            </section>
+            
+            <section class="rsvp">
+                <h2 class="text">RVSP</h2>
+                <div class="buttons">
+                    <button id="will-go-btn">Will Attend</button>
+                    <button id="will-not-go-btn">Will Not Atttend</button>
+                </div>
+                <div class="link">
+                    <button onclick="openLink()">View Gallery</button>
+                </div>
+            </section>
+            <!-- RSVP Modal for Will Attend -->
+            <div id="rsvp-modal" class="modal hidden">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 align="center">Were Waiting For You</h2>
+                    <form id="rsvp-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                        
+                        <button type="submit" class="hover">Submit RVSP</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- RSVP Modal for Will Not Attend -->
+            <div id="rsvp-not-go-modal" class="modal hidden">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 align="center">Sorry You Can't Make It</h2>
+                    <form id="not-go-form">
+                        <label for="name-not-go">Name:</label>
+                        <input type="text" id="name-not-go" name="name-not-go" placeholder="Your Full Name" required>
+                        
+                        <label for="email-not-go">Email:</label>
+                        <input type="email" id="email-not-go" name="email-not-go" placeholder="Your Email Address" required>
+                        
+                        <label for="reason">Reason for Not Attending:</label>
+                        <textarea id="reason" name="reason" placeholder="Let us know why you can't make it" required></textarea>
+                        
+                        <button type="submit" class="hvr">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
