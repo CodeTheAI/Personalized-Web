@@ -183,8 +183,7 @@ padding: 15px 25px;
     border-radius: 10px;
     width: 80%;
     max-width: 400px;
-    position: relative;
-    text-align: left;
+    position: relative;  
     opacity: 0;
     transform: translateY(-100px);
     animation: modalSlideIn 0.5s forwards;
@@ -194,15 +193,10 @@ padding: 15px 25px;
     margin-bottom: 25px; 
 }
 
-#ctr {
-    text-align: center;
-
-#ctrs {
-    text-align: center;
-}
 .modal-content label {
     display: block;
     margin-bottom: 5px;
+    text-align: left;
 }
 
 .modal-content input {
