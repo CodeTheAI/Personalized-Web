@@ -196,6 +196,9 @@ padding: 15px 25px;
 
 #center {
     text-align: center;
+
+#centers {
+    text-align: center;
 }
 .modal-content label {
     display: block;
