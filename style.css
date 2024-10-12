@@ -34,7 +34,7 @@ body {
     
 
 }
-/* Mobile styles (screens narrower than 600px) */
+/* Mobile styles (screens narrower than 1300px) */
 @media (max-width: 1300px) {
     body {
         padding: 10px;
