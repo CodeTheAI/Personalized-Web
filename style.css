@@ -34,20 +34,47 @@ body {
     
 
 }
-/* Mobile styles (screens narrower than 768px) */
-@media (max-width: 768px) {
-    header h1 {
-    color: #000000;
-    font-size: 2.5em;
-    font-family: 'Brush Script MT', sans-serif;
-    font-size: 45px; /* Smaller font size for mobile */
-    box-sizing: border-box;
+/* Mobile styles (screens narrower than 600px) */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+        font-size: 0.9em;
     }
+
     .container {
-        width: 95%; /* Make the container wider on mobile */
-        padding: 15px; /* Adjust padding to fit mobile */
-        margin: 0 auto; /* Center container */
-        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        border: 3px solid #000000;
+    }
+
+    header h1 {
+        font-size: 1.8em; /* Reduce the size of the heading */
+    }
+
+    .hdr {
+        font-size: 20px; /* Smaller for mobile */
+    }
+
+    .text {
+        font-size: 30px; /* RSVP text */
+    }
+
+    .buttons button {
+        padding: 1em 2em;
+        font-size: 10px; /* Smaller button text */
+    }
+
+    .link button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+
+    .image-placeholder img {
+        width: 100%;
+        height: auto;
     }
 }
 /* font styles and family */
