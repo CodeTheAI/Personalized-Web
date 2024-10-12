@@ -93,3 +93,11 @@ window.addEventListener('scroll', function() {
 function openLink() {
     window.location.href = "https://codetheai.github.io/Personalized-Gallery/"; // Redirects in the same tab
 }
+/// Adjust Font Size Base on window
+const header = document.getElementById('invitation-header');
+let currentFontSize = 100; // Starting with 100px font size
+
+while (header.scrollWidth > window.innerWidth && currentFontSize > 10) {
+    currentFontSize--; // Decrease the font size
+    header.style.fontSize = `${currentFontSize}px`;
+}
