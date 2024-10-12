@@ -242,6 +242,10 @@ padding: 15px 25px;
 
 .modal-content h2 {
     margin-bottom: 25px; 
+    font-family: "Playfair", serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1.5px
 }
 
 .modal-content label {
