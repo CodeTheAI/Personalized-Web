@@ -86,17 +86,23 @@ header {
 
 header h1 {
     color: #000000;
-    font-family: 'Brush Script MT', sans-serif;
+    font-family: 'Alex Brush', cursive;
     font-size: 100px; 
     overflow-wrap: break-word;
+    font-weight: 400;
+    font-style: normal;
 }
 .hdr {
     font-size: 30px;
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: "Style Script", cursive;
     font-weight: bold;
+    font-style: normal;
 }
 .head {
-    font-family: 'Brush Script MT', sans-serif;
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
     font-size: 30px ;
     margin-bottom: 10px;
 }
