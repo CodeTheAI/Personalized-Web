@@ -35,7 +35,7 @@ body {
 
 }
 /* Mobile styles (screens narrower than 600px) */
-@media (max-width: 600px) {
+@media (max-width: 1300px) {
     body {
         padding: 10px;
         font-size: 0.9em;
