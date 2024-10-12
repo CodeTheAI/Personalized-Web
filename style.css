@@ -87,7 +87,7 @@ header {
 header h1 {
     color: #000000;
     font-family: 'Brush Script MT', sans-serif;
-    font-size: 10vw; 
+    font-size: 100%; 
     overflow-wrap: break-word;
 }
 .hdr {
