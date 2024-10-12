@@ -1,5 +1,7 @@
 # Personalized-Web
 
+Type of Webpage: Wedding Invitation
+
 About💫:
 
 This webpage is purposely built in the fulfillment of the assignment in ItC. This webpage is a sample wedding invitation page and does not include any real life person or event. All images and places mentions were purely fictional and does not exist in the real world.
