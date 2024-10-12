@@ -41,6 +41,7 @@ body {
     font-size: 2.5em;
     font-family: 'Brush Script MT', sans-serif;
     font-size: 45px; /* Smaller font size for mobile */
+    box-sizing: border-box;
     }
     .container {
         width: 95%; /* Make the container wider on mobile */
