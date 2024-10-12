@@ -34,7 +34,21 @@ body {
     
 
 }
-
+/* Mobile styles (screens narrower than 768px) */
+@media (max-width: 768px) {
+    header h1 {
+    color: #000000;
+    font-size: 2.5em;
+    font-family: 'Brush Script MT', sans-serif;
+    font-size: 45px; /* Smaller font size for mobile */
+    }
+    .container {
+        width: 95%; /* Make the container wider on mobile */
+        padding: 15px; /* Adjust padding to fit mobile */
+        margin: 0 auto; /* Center container */
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    }
+}
 /* font styles and family */
 
 header {
