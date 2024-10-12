@@ -264,7 +264,7 @@ padding: 15px 25px;
 
 .modal-content button {
     width: 100%;
-    border: 3px solid #ed1d1d;
+    border: 3px solid #000000;
     border-radius: 45px;
     transition: all 0.3s;
     cursor: pointer;
@@ -276,7 +276,7 @@ padding: 15px 25px;
   }
   
 .modal-content button:hover {
-    background: #ed1d1d;
+    background: #000000;
     color: white;
     font-size: 1.5em;
   }
