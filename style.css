@@ -35,7 +35,7 @@ body {
 
 }
 /* Mobile styles (screens narrower than 1300px) */
-@media (max-width: 1300px) {
+@media (max-width: 768px) {
     body {
         padding: 10px;
         font-size: 0.9em;
@@ -47,7 +47,7 @@ body {
     }
 
     header h1 {
-        font-size: 1.8em; /* Reduce the size of the heading */
+        font-size: 5vw; /* Reduce the size of the heading */
         overflow-wrap: break-word;
     }
 
