@@ -41,6 +41,7 @@ body {
     .buttons button {
         padding: 1em 2em;
         font-size: 10px; /* Smaller button text */
+        color: #000;
     }
 
     .link button {
