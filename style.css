@@ -47,7 +47,7 @@ body {
     }
 
     header h1 {
-        font-size: 40px; /* Reduce the size of the heading */
+        font-size: 35px; /* Reduce the size of the heading */
         overflow-wrap: break-word;
     }
 
