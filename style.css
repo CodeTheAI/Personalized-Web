@@ -53,6 +53,10 @@ body {
         width: 90%;
     }
 
+    .modal-cotent button {
+        color: #000;
+    }
+
     .image-placeholder img {
         width: 100%;
         height: auto;
