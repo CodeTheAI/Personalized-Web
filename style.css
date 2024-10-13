@@ -26,7 +26,7 @@ body {
     }
 
     header h1 {
-        font-size: 40px; /* Reduce the size of the heading */
+        font-size: 70px !important; /* Reduce the size of the heading */
         overflow-wrap: break-word;
     }
 
@@ -84,7 +84,7 @@ header {
 header h1 {
     color: #000000;
     font-family: 'Alex Brush', cursive;
-    font-size: 96px; 
+    font-size: 100px; 
     overflow-wrap: break-word;
     font-weight: 600;
     font-style: normal;
