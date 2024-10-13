@@ -14,26 +14,6 @@ body {
     background-repeat: no-repeat;
 }
 
-#container {
-    max-width: 100vh;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-
-}
-/* container frame  */
-.container {
-    text-align: center;
-    border: 5px solid #000000;
-    padding: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 100vh;
-    margin: 0 auto;
-    
-
-}
 /* Mobile styles (screens narrower than 768px) */
 @media (max-width: 768px) {
     body {
@@ -47,7 +27,7 @@ body {
     }
 
     header h1 {
-        font-size: 35px; /* Reduce the size of the heading */
+        font-size: 60px; /* Reduce the size of the heading */
         overflow-wrap: break-word;
     }
 
@@ -78,12 +58,30 @@ body {
         height: auto;
     }
 }
-/* font styles and family */
+
+#container {
+    max-width: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+
+}
+/* container frame  */
+.container {
+    text-align: center;
+    border: 5px solid #000000;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 100vh;
+    margin: 0 auto;
+}
 
 header {
     margin-bottom: 20px;
 }
-
+/* font styles and family */
 header h1 {
     color: #000000;
     font-family: 'Alex Brush', cursive;
