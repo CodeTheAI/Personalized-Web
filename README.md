@@ -8,7 +8,7 @@ This webpage is purposely built in the fulfillment of the assignment in ItC. Thi
 
 Notes🗒️:
 
-This webpage may not display properly in mobile devices due to the incompatibility of the css to the screen resolution of mobile.
+This webpage may not display properly in some mobile devices due to the incompatibility of the css to the screen resolution of mobile.
 All images are only for fulfillment of this assignment and is not allowed for commercial-use.
 
 Credits🧾:
